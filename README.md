@@ -1,7 +1,13 @@
 # cloud-functions-eviction-policy-simulator
 Keep-alive policies for function containers to minimize the number of cold-starts. 
 
-Simulator copied from https://github.iu.edu/alfuerst/faas-cloud-comp as part of ENGR-E 516 Engineering Cloud Computing course.
+Trace samples are from the Azure Cloud. These traces represent when and which function gets invoked.
+
+All keep-alive policies are **online**. That is, the eviction decision is based only on the current and past function invocations.
+
+Simulator provided by https://github.iu.edu/alfuerst/faas-cloud-comp as part of ENGR-E 516 Engineering Cloud Computing course.
+
+
 
 ### Keep-alive algorithms implemented
 
