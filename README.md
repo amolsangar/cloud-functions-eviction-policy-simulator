@@ -9,13 +9,13 @@ Simulator copied from https://github.iu.edu/alfuerst/faas-cloud-comp as part of 
 
 **1. DYNAMIC MEMORY TTL (Time to live)**
 
-- **Intuition** – This algorithm removes all containers which are not invoked in the past x mins. The minutes are calculated based on the memory available and is divided by 400 to balance both the cold start ratio and drop (capacity misses) ratio. 
+- **Intuition** – This algorithm removes all containers which are not invoked in the past x mins. The minutes are calculated based on the memory available and is divided by 400 to **balance** both the cold start ratio and drop (capacity misses) ratio. 
 
   The dividing factor is directly proportional to cold start ratio and indirectly proportional to drop ratio. 
   
   For lower memory sizes, the TTL value is set to 6 mins.
   
-  This algorithm is the best performing algorithm amongst all.
+  This algorithm is the **best performing** algorithm amongst all.
 
   ```python
   self.TTL = (self.mem_capacity // 400) * 60 * 1000 # Dynamic Memory TTL ms
