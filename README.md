@@ -86,30 +86,30 @@ All algorithms are implemented keeping in mind that they should work across all 
 ---
 
 ### Graphs
-All graphs can be seen in the `img` folder.
+All graphs can be seen in the `graphs` folder.
 
 ### Results for 100-a
 
-<img src="img/100-a/results-CLOUD21-100-a.png">
+<img src="graphs/100-a/results-CLOUD21-100-a.png">
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **DYNAMIC TTL**
 
-<img src="img/100-a/results-LRU-100-a.png">
+<img src="graphs/100-a/results-LRU-100-a.png">
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **LRU**
 
-<img src="img/100-a/results-LFU-100-a.png">
+<img src="graphs/100-a/results-LFU-100-a.png">
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **LFU**
 
-<img src="img/100-a/results-RAND-100-a.png">
+<img src="graphs/100-a/results-RAND-100-a.png">
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **RAND**
 
-<img src="img/100-a/results-RUNTIME_DIFF-100-a.png">
+<img src="graphs/100-a/results-RUNTIME_DIFF-100-a.png">
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **RUNTIME DIFFERENTIAL**
 
-<img src="img/100-a/results-COLD_COST-100-a.png">
+<img src="graphs/100-a/results-COLD_COST-100-a.png">
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **COLD COST**
