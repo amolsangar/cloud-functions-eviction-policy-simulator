@@ -108,7 +108,7 @@ All graphs can be seen in the `graphs` folder.
 
 <img src="graphs/100-a/results-RUNTIME_DIFF-100-a.png">
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **RUNTIME DIFFERENTIAL**
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **RUNTIME DIFFERENTIAL**
 
 <img src="graphs/100-a/results-COLD_COST-100-a.png">
 
